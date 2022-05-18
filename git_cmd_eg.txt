@@ -1,0 +1,11 @@
+git config --global user.name "Your Name"
+git config --global user.email "your-email-used-for-github-acct@email.com"
+
+
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+git status
+git add "file-name-here-with-extension"  --> for single file
+git add --all
+git commit -m "Editing the README to try out git add/commit"
+git log   --> for checking commit history of local repository
+git push
